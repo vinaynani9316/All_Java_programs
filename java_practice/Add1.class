@@ -1,0 +1,5 @@
+:PartStack" xmi:id="_qMRTCXbKEeivwLvrnOjRtQ" elementId="bottom" toBeRendered="false" containerData="2500">
+                  <children xsi:type="advanced:Placeholder" xmi:id="_qMRTCnbKEeivwLvrnOjRtQ" elementId="org.eclipse.ui.views.ProblemView" toBeRendered="false" ref="_qMR7DHbKEeivwLvrnOjRtQ"/>
+                  <children xsi:type="advanced:Placeholder" xmi:id="_qMRTC3bKEeivwLvrnOjRtQ" elementId="org.eclipse.search.ui.views.SearchView" toBeRendered="false" ref="_qMR7G3bKEeivwLvrnOjRtQ"/>
+                  <children xsi:type="advanced:Placeholder" xmi:id="_qMRTDHbKEeivwLvrnOjRtQ" elementId="org.eclipse.ui.console.ConsoleView" toBeRendered="false" ref="_qMR7HnbKEeivwLvrnOjRtQ"/>
+                  <children xsi:type="advanced:Placeholder" xmi:id="_qMR
