@@ -1,0 +1,6 @@
+="advanced:Placeholder" xmi:id="_d616znbGEeivwLvrnOjRtQ" elementId="org.eclipse.pde.ui.PluginsView" ref="_d62jBXbGEeivwLvrnOjRtQ"/>
+            </children>
+            <children xsi:type="basic:PartSashContainer" xmi:id="_d616z3bGEeivwLvrnOjRtQ" containerData="7500" selectedElement="_d6160HbGEeivwLvrnOjRtQ">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_d6160HbGEeivwLvrnOjRtQ" containerData="7500" selectedElement="_d6160XbGEeivwLvrnOjRtQ" horizontal="true">
+                <children xsi:type="advanced:Placeholder" xmi:id="_d6160XbGEeivwLvrnOjRtQ" elementId="org.eclipse.ui.editorss" containerData="7500" ref="_d618GXbGEeivwLvrnOjRtQ"/>
+                <children xsi:type="basic:PartStack" xmi:id="_d6160nbGEeivwLvrnOjRtQ" elementId="org.eclipse.ui.views.ContentOutlineMStack" containerData="2500" selectedElement="_d6161HbGEeivwL
