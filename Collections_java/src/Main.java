@@ -44,7 +44,7 @@ public class Main
 	{
 		List<Laptop> a=new ArrayList<Laptop>();
 		a.add(new Laptop("Dell", 4, 30000));
-		a.add(new Laptop("Hp",2, 28000)); 
+		a.add(new Laptop("Hp",10, 28000)); 
 		a.add(new Laptop("Lenovo", 8, 46000));
 		Collections.sort(a, new Comparator<Laptop>()
 				{
@@ -54,9 +54,12 @@ public class Main
 			            			{
 			            		      return 1;
 			            			}
-			            	else
+			            	else if(((Laptop)(l1)).ram>((Laptop)(l2)).ram)
 			            	{
-			            		return -1;
+			            		return 1;
+			            	} 
+			            	else {
+							return -1;
 			            	}
 			            }
 			      
