@@ -6,7 +6,7 @@ class Vinay
 		z=x+y;
 		System.out.println(z);
 	}
-	void add(long x, int y)
+	void rt(long x, int y)
 	{
 		long z;
 		z=x+y;

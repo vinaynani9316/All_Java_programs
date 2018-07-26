@@ -61,9 +61,9 @@ public class Cricket_using_comparator_interface_mainclass
 		a.add(new Crick("virat", 30, 32000, 5432, 'M'));
 		a.add(new Crick("yuvraj", 35, 60000,0342, 'M'));
 		System.out.println(a);
-		Collections.sort (a, new Comparator<Object>()//we are creating Comparator object in main class only so that we can better encapsulation,
+		Collections.sort (a, new Comparator<Crick>() //opening bracket//we are creating Comparator object in main class only so that we can better encapsulation,
 		{
-		public int compare(Object x, Object y)                  // & it can only access by main class.
+		public int compare(Crick x, Crick y)                  // & it can only access by main class.
 		 {
 			if(((Crick)(x)).runs >((Crick)(y)).runs)
 			{
@@ -76,7 +76,7 @@ public class Cricket_using_comparator_interface_mainclass
 			
 		 }
 		
-	   });
+	   });                       //closing bracket
 		System.out.println(a);
 
     }
